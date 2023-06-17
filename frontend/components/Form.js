@@ -1,11 +1,13 @@
 import React from 'react'
+import TodoList from './TodoList'
 
-export default class Form extends React.Component {
+class TodoForm extends React.Component {
   render() {
-    return (
-      <div>
-        Form
-      </div>
-    )
+    return (<form>
+      <input />
+      <button>Add</button>
+    </form>)
   }
 }
+
+export default TodoForm;
